@@ -22,6 +22,7 @@
 		4083E67E197AC83A006E307B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4083E65D197AC83A006E307B /* UIKit.framework */; };
 		4083E686197AC83A006E307B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4083E684197AC83A006E307B /* InfoPlist.strings */; };
 		4083E688197AC83A006E307B /* Demo_app_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4083E687197AC83A006E307B /* Demo_app_2Tests.m */; };
+		4083E693197AD04C006E307B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4083E692197AD04C006E307B /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		4083E683197AC83A006E307B /* Demo app 2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo app 2Tests-Info.plist"; sourceTree = "<group>"; };
 		4083E685197AC83A006E307B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4083E687197AC83A006E307B /* Demo_app_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_app_2Tests.m; sourceTree = "<group>"; };
+		4083E691197AD04C006E307B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4083E692197AD04C006E307B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4083E668197AC83A006E307B /* AppDelegate.h */,
 				4083E669197AC83A006E307B /* AppDelegate.m */,
 				4083E66B197AC83A006E307B /* Main_iPhone.storyboard */,
+				4083E691197AD04C006E307B /* HomeViewController.h */,
+				4083E692197AD04C006E307B /* HomeViewController.m */,
 				4083E66E197AC83A006E307B /* Main_iPad.storyboard */,
 				4083E671197AC83A006E307B /* ViewController.h */,
 				4083E672197AC83A006E307B /* ViewController.m */,
@@ -256,6 +261,7 @@
 				4083E673197AC83A006E307B /* ViewController.m in Sources */,
 				4083E66A197AC83A006E307B /* AppDelegate.m in Sources */,
 				4083E666197AC83A006E307B /* main.m in Sources */,
+				4083E693197AD04C006E307B /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
